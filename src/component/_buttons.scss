@@ -1,0 +1,39 @@
+.btn-rounded {
+  // @include media-breakpoint-down(sm) {
+  //   display: none;
+  // }
+  position: relative;
+  padding: 0.93rem 3.7rem 0.93rem 13px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left !important;
+  border: 0.1rem solid white;
+  max-width: 230px;
+
+  span {
+    position: absolute;
+    background-color: $primary;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 9px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+
+    .icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-left: 25%;
+      color: aliceblue;
+    }
+  }
+  &:hover {
+    background: $gradient;
+    color: aliceblue;
+
+    span {
+      background-color: rgba(black, 0.6);
+    }
+  }
+}

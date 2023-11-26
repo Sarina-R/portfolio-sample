@@ -1,0 +1,19 @@
+@use "../../index.scss" as *;
+@import "../../component/buttons";
+.menun {
+  background: $gradient;
+  li {
+    padding: 0.3rem 0.7rem 0 0.7rem;
+    font-weight: 700;
+    a {
+      color: antiquewhite !important;
+      text-transform: capitalize;
+      &:hover {
+        @include media-breakpoint-up(lg) {
+          border-bottom: 2px solid white;
+          // padding: 0;
+        }
+      }
+    }
+  }
+}
