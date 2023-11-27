@@ -43,4 +43,15 @@
     position: relative;
     bottom: -5px;
   }
+  button {
+    a {
+      text-decoration: none !important;
+      color: black;
+    }
+    &:hover {
+      a {
+        color: white;
+      }
+    }
+  }
 }

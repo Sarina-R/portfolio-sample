@@ -20,7 +20,7 @@ const Intro = () => {
               </span>
             </h1>
             <button type="button" className="rounded-pill btn-rounded">
-              Get In Touch
+              <a href="email">Get In Touch</a>
               <span>
                 <i className="fas fa-arrow-right icon" />
               </span>
