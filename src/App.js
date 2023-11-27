@@ -1,5 +1,5 @@
 import "./App.css";
-import { Navbar, Intro, Companies } from "./container";
+import { Navbar, Intro, Companies, Services } from "./container";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Navbar />
       <Intro />
       <Companies />
+      <Services />
     </>
   );
 }
