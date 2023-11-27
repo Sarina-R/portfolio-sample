@@ -4,7 +4,7 @@ import SerData from "./services-data/SerData";
 import data from "./data";
 const Services = () => {
   return (
-    <section className="servicese ">
+    <section className="servicese" id="services">
       <div className="contianer comp">
         <div className="text-center row title">
           <h4 className="lead fw-bold ">Our Services</h4>

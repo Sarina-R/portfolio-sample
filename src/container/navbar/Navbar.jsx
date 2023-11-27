@@ -29,32 +29,32 @@ const Navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="home">
+                <a className="nav-link active" aria-current="page" href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="services">
+                <a className="nav-link" href="#services">
                   services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="testimonials">
+                <a className="nav-link" href="#testimonials">
                   testimonials
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="faq">
+                <a className="nav-link" href="#faq">
                   faq
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="portfolio">
+                <a className="nav-link" href="#portfolio">
                   portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="getstart">
+                <a className="nav-link" href="#getstart">
                   contact
                 </a>
               </li>
