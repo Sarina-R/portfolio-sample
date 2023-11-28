@@ -1,0 +1,93 @@
+@use "../../index" as *;
+
+.testi {
+  background: $gradient;
+  .review {
+    margin: auto;
+    &__box {
+      background-color: rgba(255, 255, 255, 0.589);
+      border-radius: 1rem;
+      padding: 1rem 0 3rem 0 !important;
+      .icon {
+        margin: auto 10px;
+        font-size: 2rem;
+        color: $primary;
+      }
+      .fa-star {
+        color: $primary;
+      }
+      @include media-breakpoint-down(sm) {
+        margin: auto 2px;
+        p {
+          font-size: smaller;
+        }
+      }
+    }
+
+    .info {
+      &__text {
+        margin-top: -2rem;
+        h4,
+        p {
+          color: aliceblue;
+        }
+      }
+      &__img {
+        position: relative;
+        top: -3rem;
+        img {
+          width: 7rem;
+          margin: auto;
+          border: 8px solid $primary;
+          bottom: 0;
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        margin: 0;
+      }
+    }
+
+    .button {
+      padding-right: 2.7rem;
+      margin: auto;
+      font-size: 1.5rem;
+      color: aliceblue;
+      &__prev,
+      &__next {
+        padding: 3px 7px;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        &:hover {
+          cursor: pointer;
+          color: darken($color: #00000053, $amount: 0);
+          border-color: darken($color: #00000053, $amount: 0);
+        }
+      }
+      @include media-breakpoint-down(sm) {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  .text {
+    justify-content: center;
+    margin: auto;
+    .line {
+      width: 3rem;
+      height: 1px;
+      background-color: aliceblue;
+      margin-bottom: 0.5rem;
+    }
+    p,
+    h2 {
+      color: white;
+    }
+    h2 {
+      font-size: 3rem;
+      @include media-breakpoint-down(sm) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
