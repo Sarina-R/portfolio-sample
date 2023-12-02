@@ -1,6 +1,6 @@
 import React from "react";
 import "./_faq.scss";
-// import "../../_index.scss";
+import "../../_index.scss";
 const Faq = () => {
   return (
     <section id="faq" className="faq comp mb-5">

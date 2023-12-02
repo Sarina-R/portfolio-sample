@@ -11,6 +11,21 @@
   }
 }
 .accordion-item {
+  .accordion-button::after {
+    margin-right: 1.2rem;
+    font-size: 1.3rem;
+    color: $primary;
+    font-family: "bootstrap-icons";
+    content: "\f4fa"; // plus icon
+    background-image: none; // remove background image
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: $primary;
+    content: "\f2e6"; // minus icon
+    background-image: none; // remove background image
+  }
+
   .accordion-button {
     &:focus {
       box-shadow: none;
