@@ -1,0 +1,26 @@
+@use "../../_index.scss" as *;
+@import "bootstrap-icons/font/bootstrap-icons";
+
+.faq {
+  margin: auto;
+  max-width: 1200px;
+  @include media-breakpoint-down(md) {
+    p {
+      font-size: smaller;
+    }
+  }
+}
+.accordion-item {
+  .accordion-button {
+    &:focus {
+      box-shadow: none;
+    }
+    &:not(.collapsed) {
+      background-color: rgba($primary, $alpha: 0.1);
+      box-shadow: none;
+      &:active {
+        box-shadow: none;
+      }
+    }
+  }
+}

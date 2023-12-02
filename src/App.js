@@ -1,5 +1,12 @@
 import "./App.css";
-import { Navbar, Intro, Companies, Services, Testimonials } from "./container";
+import {
+  Navbar,
+  Intro,
+  Companies,
+  Services,
+  Testimonials,
+  Faq,
+} from "./container";
 
 function App() {
   return (
@@ -9,6 +16,7 @@ function App() {
       <Companies />
       <Services />
       <Testimonials />
+      <Faq />
     </>
   );
 }

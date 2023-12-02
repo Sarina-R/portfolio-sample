@@ -28,7 +28,7 @@ const Testimonials = () => {
     });
   };
   return (
-    <section className="testi mb-5">
+    <section id="testimonials" className="testi mb-5">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
