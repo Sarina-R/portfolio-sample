@@ -6,6 +6,7 @@ import {
   Services,
   Testimonials,
   Faq,
+  Portfolio,
 } from "./container";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <Testimonials />
       <Faq />
+      <Portfolio />
     </>
   );
 }

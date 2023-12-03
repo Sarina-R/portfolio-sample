@@ -1,0 +1,15 @@
+@use "../../_index.scss" as *;
+
+.portfolio {
+  .col {
+    .btn {
+      color: $primary;
+      outline: 1px solid $primary;
+      &:hover {
+        background: $primary;
+        color: white;
+        transition: 0.4s;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@use "../../index" as *;
+
+.img-box {
+  position: relative;
+  max-height: 220px;
+  border-top: 5px solid $primary;
+  margin: 0.5rem auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    img {
+      transform: scale(1.5);
+      transition-duration: 1s;
+    }
+    .img-box__hiden {
+      opacity: 100;
+      visibility: visible;
+    }
+  }
+
+  &__hiden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: $primary, $alpha: 0.75);
+    .btn {
+      border: none;
+      i {
+        &:active {
+          color: rgba($color: white, $alpha: 0.6);
+          transition: 0.2s;
+        }
+      }
+    }
+    .fw-bold {
+      margin-top: 13%;
+    }
+    h2,
+    i {
+      color: aliceblue;
+    }
+    i {
+      font-size: 2rem;
+    }
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+  }
+}
