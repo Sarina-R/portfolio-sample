@@ -8,6 +8,7 @@ import {
   Faq,
   Portfolio,
   Getstart,
+  Footer,
 } from "./container";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Faq />
       <Portfolio />
       <Getstart />
+      <Footer />
     </>
   );
 }

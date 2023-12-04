@@ -28,4 +28,7 @@ h4,
 p {
   font-family: $font;
 }
+body {
+  overflow-x: hidden;
+}
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

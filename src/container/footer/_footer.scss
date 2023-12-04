@@ -1,0 +1,53 @@
+@use "../../index" as *;
+.footer {
+  overflow: hidden;
+  background: $footer;
+  margin: auto !important;
+  .info {
+    margin: auto !important;
+    align-items: center;
+    &__icon {
+      display: inline-block;
+    }
+    &__text {
+      padding-top: 1.5rem;
+    }
+    i {
+      color: $primary;
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 12px;
+      color: gray;
+    }
+    @include media-breakpoint-up(lg) {
+      .map {
+        padding-left: 3.5rem;
+      }
+    }
+  }
+  .social {
+    margin: 2rem auto !important;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
+    padding: auto 4rem !important;
+
+    i {
+      font-size: 1.5rem;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .links {
+    margin: auto !important;
+
+    padding: auto 2rem !important;
+
+    hr {
+      height: 0.1rem;
+      width: 80px;
+    }
+  }
+}
