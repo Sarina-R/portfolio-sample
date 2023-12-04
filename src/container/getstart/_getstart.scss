@@ -1,0 +1,56 @@
+@use "../../index" as *;
+.getstart {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  padding: 4rem;
+  margin: 0 1px !important;
+  @include media-breakpoint-down(lg) {
+    padding: 2rem;
+  }
+  @include media-breakpoint-down(sm) {
+    margin: 0 !important;
+    padding: 0rem;
+  }
+  .comp {
+    margin: 2rem 0;
+  }
+  .getstart__box {
+    padding: 1rem 0;
+    margin: 0;
+    box-shadow: 5px rgba($color: #000000, $alpha: 0.5);
+    .left,
+    .right {
+      padding: 4rem 2rem;
+    }
+    .right {
+      background-color: white;
+      h3 {
+        display: inline-block;
+        background-image: $gradient;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    .left {
+      background: $gradient;
+
+      h2,
+      h4,
+      p {
+        color: aliceblue;
+      }
+      .p-section {
+        h4 {
+          margin-bottom: 1rem;
+        }
+        i {
+          margin-right: 10px;
+        }
+        p {
+          font-size: 16px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

@@ -7,6 +7,7 @@ import {
   Testimonials,
   Faq,
   Portfolio,
+  Getstart,
 } from "./container";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Portfolio />
+      <Getstart />
     </>
   );
 }
